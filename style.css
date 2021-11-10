@@ -98,6 +98,10 @@ body {
       color: #fff;
       font-weight: 300;
  }
+ .contactInfo ul li a {
+    color: #fff;
+    font-weight: 300;
+ }
  
  .contactInfo.education li {
      margin-bottom: 15px;
@@ -134,20 +138,16 @@ body {
     background: #03a9f4;
 }
  
- 
-
-
- 
-
-.container .right_Side {
+ .container .right_Side {
+    margin-right: 5px;
     position: relative;
     background: #fff;
     align-content: center;
     padding: 40px;
-
+    color: #333;
 }
 .about {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .about:last-child {
     margin-bottom: 0;
@@ -157,30 +157,21 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-p {
-    color: #333;
+.para {
+    padding: 4px;
 }
-.about1 {
-    margin-bottom: 50px;
+.project {
+    padding: 4px;
+}
+.project li {
+    padding: 2px;
 }
 .title3 {
-    color: #003147;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-.title4 {
-    margin-top: 50px;
-    color: #003147;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-.about1 li {
-    letter-spacing: 1px;
+    width: 70%;
     color: #333;
+    padding: 0;
 }
 .interest ul {
     display: grid;
@@ -188,7 +179,6 @@ p {
 }
 .interest ul li {
     list-style: none;
-    color: #333;
     font-weight: 500;
     margin: 10px 0;
 }
